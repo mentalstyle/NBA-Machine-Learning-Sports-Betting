@@ -10,7 +10,7 @@ from sbrscrape import Scoreboard
 from tqdm import tqdm
 
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
-from src.Utils.tools import get_date
+from .tools import get_date
 
 year = ["2022", "2023"]
 season = ["2022-23"]

@@ -7,7 +7,7 @@ from datetime import date, datetime, timedelta
 
 from tqdm import tqdm
 
-from src.Utils.tools import get_json_data, to_data_frame
+from .tools import get_json_data, to_data_frame
 
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
 
